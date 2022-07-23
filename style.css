@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#logo_title{
+    display: flex;
+    
+    
+}
+
+#social-media li{
+    list-style-type: none;
+    display: inline;
+    justify-content: flex-end;
+    
+}
+
+#social-media{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#main-title{
+    display: inline-block;
+    margin-top: 1em;
+    position: relative;
+    bottom: 19px;
+    font-family: 'Yellowtail', cursive;
+
+}
+
+#subtitle{
+    display: inline-block;
+    position: relative;
+    right: 100px;   
+    color: #63666A; 
+}
+
+#bar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 10px;
+    background-color: #333333;
+}
+
+#body-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+    
+}
+
+#post-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25rem;
+    
+}
+
+#post-subtitle{
+    font-size: 1rem;
+    color: #63666A;
+
+}
+
+
+#print{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: #63666A;
+}
+
+#main-image{
+    display: flex;
+    justify-content: center;
+}
+
+#main-text{
+    
+    font-size: 20px;
+    color: #63666A;
+    width: 1000px;
+    margin-left: 50rem;
+}
+
+#ingredients {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/Assets/list-bg.png);
+    width: 900px;
+    height: 300px;
+    float: left;
+    margin-left: 50rem;
+    border: solid #ad6e2649;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Neucha', cursive;
+
+}
+
+#user{
+    position: relative;
+    top: 20rem;
+    right: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h3{
+    left: 100px;
+}
+
+
+#user-image{
+    height: 71px;
+    width: 68px;
+
+}
+
+#footer {
+    position:absolute;
+   
+    width:100%;
+  
+ }
+
+
+
+ #main-button{
+    height: 75px;
+    width: 200px;
+    left: 55px;
+    background-color: rgb(216, 97, 60);
+    border: none;
+    color: white;
+    font-size: 20px;
+ }
+
+
+ #footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 25rem;
+    text-align: center;
+    align-items: center;
+ }
