@@ -90,7 +90,7 @@ header{
     font-size: 20px;
     color: #63666A;
     width: 1000px;
-    margin-left: 20%;
+    margin-left: 24%;
 }
 
 #ingredients {
@@ -100,7 +100,7 @@ header{
     width: 900px;
     height: 300px;
     float: left;
-    margin-left: 20%;
+    margin-left: 24%;
     border: solid #ad6e2649;
     list-style-type: none;
     font-size: 30px;
@@ -112,7 +112,7 @@ header{
    
   display: flex;
   flex-direction: row;
-    margin-left: 20%;
+    margin-left: 24%;
 }
 
 h3{
