@@ -90,7 +90,7 @@ header{
     font-size: 20px;
     color: #63666A;
     width: 1000px;
-    margin-left: 50rem;
+    margin-left: 20%;
 }
 
 #ingredients {
@@ -100,7 +100,7 @@ header{
     width: 900px;
     height: 300px;
     float: left;
-    margin-left: 50rem;
+    margin-left: 20%;
     border: solid #ad6e2649;
     list-style-type: none;
     font-size: 30px;
@@ -109,12 +109,10 @@ header{
 }
 
 #user{
-    position: relative;
-    top: 20rem;
-    right: 900px;
-    display: flex;
-    justify-content: space-between;
-
+   
+  display: flex;
+  flex-direction: row;
+    margin-left: 20%;
 }
 
 h3{
@@ -157,3 +155,16 @@ h3{
     text-align: center;
     align-items: center;
  }
+
+
+ #secondContainer{
+
+    display: flex;
+    flex-direction: column;
+ }
+
+
+
+#main-button:hover{
+    background-color: rgb(161, 87, 67); ;
+}
